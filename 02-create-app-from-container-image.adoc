@@ -16,11 +16,11 @@ IMPORTANT: Please replace *Username* with your username
 - Click onto `Project` on the top
 - Click `Create Project`
 
-image::dev-project.png[image]
+image::images/dev-project.png[image]
 
 - Enter *web-terminal-Username* as name of the project. The display name and description is optional.
 
-image::create-project.png[image]
+image::images/create-project.png[image]
 
 
 === Deploy an Image
@@ -28,7 +28,7 @@ image::create-project.png[image]
 - Click `+Add` on the left menu
 - Click onto `Container Image` to deploy an image
 
-image::container-image.png[image]
+image::images/container-image.png[image]
 
 - Enter `quay.io/openshiftlabs/workshop-terminal:2.4.0` in the `Image Name` box,
   noting that there's no `http://`, enter exactly as shown here,
@@ -36,21 +36,21 @@ image::container-image.png[image]
 - Select the magnifying glass icon to the right of the box
 - Use the default `Name` for the deployment
 
-image::image01.png[image]
+image::images/image01.png[image]
 
 - Click onto `Deployment Configuration` link at the bottom of the page
 - Add `OC_VERSION` and `4.2` as `Environment Variable` in the `Deployment Configuration` section
 
-image::ocp4-deploy-image.png[image]
+image::images/ocp4-deploy-image.png[image]
 
 - Click `Create`
 - You will be on the Topology view
 
-image::ocp4-dc.png[image]
+image::images/ocp4-dc.png[image]
 
 - click onto the middle of the icon, the details page shows on the right
 
-image::ocp4-terminal.png[image]
+image::images/ocp4-terminal.png[image]
 
 - Click `DC workshop-terminal`
 - Click `Events` tab
@@ -68,7 +68,7 @@ Next we need to learn how to get to the route of the image, so we can access thi
 - Navigate to `Topology` on the left
 - Click on the icon where is shown with the bubble
 
-image::route-link.png[image]
+image::images/route-link.png[image]
 
 - the terminal will be opened on a separated browser tab
 
@@ -85,7 +85,7 @@ $ oc version
 
 NOTE: If normal cut/paste does not work, you can try to use browser's edit menu for cut/paste.
 
-image::ocp4-web-terminal.png[image]
+image::images/ocp4-web-terminal.png[image]
 
 === To login to a remote server
 
